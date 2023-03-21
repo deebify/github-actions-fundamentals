@@ -1,6 +1,10 @@
 # GitHub Actions Fundamentals
 
-Test CI/CD push with skip ci tag. 
+Test CI/CD push with skip ci tag.
+
+Add skip ci tag. 
+
+
 Repo for the `GitHub Actions Fundamentals` training.
 
 ## 👉 Objectives
