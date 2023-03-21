@@ -1,5 +1,6 @@
 # GitHub Actions Fundamentals
 
+Test CI/CD triggers with push
 Repo for the `GitHub Actions Fundamentals` training.
 
 ## 👉 Objectives
