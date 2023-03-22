@@ -1,3 +1,5 @@
+[![GitHub Actions Demo](https://github.com/deebify/github-actions-fundamentals/actions/workflows/github-actions-demo.yml/badge.svg)](https://github.com/deebify/github-actions-fundamentals/actions/workflows/github-actions-demo.yml)
+
 # GitHub Actions Fundamentals
 
 Test CI/CD push with skip ci tag.
