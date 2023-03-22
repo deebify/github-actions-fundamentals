@@ -1,4 +1,4 @@
-name: Resuable workflow
+name: Reusable workflow
 on:
   workflow_call:
     inputs:
@@ -8,12 +8,13 @@ on:
         required: true
         default: World
     outputs:
-      description: 'The time when greeting.'
-      current-time: ${{ jobs.resuble-job.outputs.current-time }}
+      current-time:
+        description: 'The time when greeting.'
+        value: ${{ jobs.reusable-job.outputs.current-time }}
 
 
 jobs:
-  resuable-job:
+  reusable-job:
     runs-on: ubuntu-latest
     outputs:
       current-time: ${{ steps.time.output.time }}
