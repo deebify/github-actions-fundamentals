@@ -1,4 +1,4 @@
-name: 'Resue other workflow'
+name: 'Reuse other workflow'
 on: [workflow_dispatch]
 
 
