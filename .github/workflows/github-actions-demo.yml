@@ -33,7 +33,7 @@ jobs:
     needs: Build
     environment: Test
     steps:
-      - run: Echo "// Testing Environment on Test Job"
+      - run: echo "Testing Environment on Test Job"
       
   Load-Test:
     runs-on: ubuntu-latest
